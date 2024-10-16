@@ -1,16 +1,8 @@
 # daily_distrection
 
-A new Flutter project.
+A new Flutter project with the motto "A chance to let your mind wander every day of the year". 
 
-## Getting Started
+This will be an application that will show a new card every day for one year, which will momentarily separate you from reality and give you the opportunity to do something for yourself and your soul.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
