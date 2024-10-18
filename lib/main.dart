@@ -1,99 +1,60 @@
 import 'package:flutter/material.dart';
+import 'package:daily_distrection/navbar.dart';
+import 'quote.dart';
 
 void main() {
-  runApp(
-    MaterialApp(
-      home: Scaffold(
+  runApp(MaterialApp(
+    home: Scaffold(
+        endDrawer: NavBar(),
         appBar: AppBar(
-          backgroundColor: Color.fromARGB(255, 200, 92, 222),
-          title: Center
-          (child: Text(
+          backgroundColor: Color.fromRGBO(254, 220, 234, 1),
+          title: Center(
+              child: Text(
             'Welcome, Merjem',
             style: TextStyle(
               fontFamily: 'Pacifico',
+              color: Color.fromRGBO(152, 217, 194, 1), //not sure about colors
             ),
-            
-          )
-          ),
+          )),
+          actions: [
+            Builder(
+                builder: (context) => InkWell(
+                    onTap: () => Scaffold.of(context).openEndDrawer(),
+                    child: Container(
+                      height: 60,
+                      width: 60,
+                      decoration: const BoxDecoration(
+                          borderRadius: BorderRadius.all(Radius.circular(100))),
+                      child: Padding(
+                        padding: EdgeInsets.all(8.0),
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.all(Radius.circular(100)),
+                          child: Image.asset('assets/images/menu-img.png'),
+                        ),
+                      ),
+                    )))
+          ],
         ),
         backgroundColor: Color.fromARGB(255, 244, 222, 244),
-        body: const Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text(
-                    "1/365",
-                    style: TextStyle(
-                      color: Color.fromARGB(200, 150, 125, 70),
-                      fontSize: 20,
-                      fontWeight: FontWeight.bold,
-                    )
-                    ),
-              MainPart(),
-            ],
-          )
-          )
-          ) 
-      ,)
-  );
-}
-
-class MainPart extends StatelessWidget {
-  const MainPart({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-            //alignment: Alignment.topCenter,
-            height: 400,
-            width: 380,
-            decoration: BoxDecoration(
-              border: Border.all(
-                color: Color.fromARGB(200, 150, 125, 70),
-                width: 5,
-              ),
-              borderRadius: BorderRadius.circular(15),
-               boxShadow: [
-                    BoxShadow(
-                      color: Color.fromARGB(199, 154, 127, 69),
-                      offset: const Offset(
-                        5.0,
-                        5.0,
-                      ),
-                      blurRadius: 20.0,
-                      spreadRadius: 2.0,
-                    ), //BoxShadow
-                    BoxShadow(
-                      color: Colors.white,
-                      offset: const Offset(-4.0, -4.0),
-                      blurRadius: 20.0,
-                      spreadRadius: 2.0,
-                    ), //BoxShadow
-                  ],
-              color: const Color.fromARGB(255, 247, 195, 232),
-            ),
+        body: Center(
             child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Text(
-                  "DREAMING ABOUT A DRASTIC NEW HAIRSTYLE MAY MEAN THAT YOU WISH TO TAKE A NEW APPROACH WITH WAY PEOPLE VIEW YOU",
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    color: Colors.brown,
-                    fontSize: 25,
-                  )
-                  ),
-                  Text(
-                  "Dream Decoder",
-                  style: TextStyle(
-                    color: const Color.fromARGB(201, 31, 87, 33),
-                    fontSize: 16,
-                    fontStyle: FontStyle.italic,
-                  )
-                  ),
-              ],
-            ),
-          );
-  }
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text("1/365",
+                style: TextStyle(
+                  color: Color.fromRGBO(123, 89, 107, 1),
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                )),
+            SizedBox(height: 20),
+            MainPart(),
+            IconButton(
+              onPressed: () {},
+              iconSize: 60,
+              icon: Icon(Icons.favorite_border,
+                  color: Color.fromARGB(255, 247, 160, 244)),
+            )
+          ],
+        ))),
+  ));
 }
-
