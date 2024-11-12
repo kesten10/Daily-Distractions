@@ -1,12 +1,16 @@
 import 'package:flutter/material.dart';
 
-class MainPart extends StatelessWidget {
+class MainPart extends StatefulWidget {
   const MainPart({super.key});
 
   @override
+  _MainPartState createState() => _MainPartState();
+}
+
+class _MainPartState extends State<MainPart> {
+  @override
   Widget build(BuildContext context) {
     return Container(
-      //alignment: Alignment.topCenter,
       height: 400,
       width: 380,
       decoration: BoxDecoration(
@@ -24,13 +28,13 @@ class MainPart extends StatelessWidget {
             ),
             blurRadius: 20.0,
             spreadRadius: 2.0,
-          ), //BoxShadow
+          ), // BoxShadow
           BoxShadow(
             color: Colors.white,
             offset: const Offset(-4.0, -4.0),
             blurRadius: 20.0,
             spreadRadius: 2.0,
-          ), //BoxShadow
+          ), // BoxShadow
         ],
         color: const Color.fromARGB(255, 248, 201, 234),
       ),
@@ -38,20 +42,23 @@ class MainPart extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Text(
-              "DREAMING ABOUT A DRASTIC NEW HAIRSTYLE MAY MEAN THAT YOU WISH TO TAKE A NEW APPROACH WITH WAY PEOPLE VIEW YOU",
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                fontFamily: 'Prociono',
-                color: Color.fromRGBO(77, 77, 77, 1),
-                fontSize: 25,
-              )),
+            "DREAMING ABOUT A DRASTIC NEW HAIRSTYLE MAY MEAN THAT YOU WISH TO TAKE A NEW APPROACH WITH WAY PEOPLE VIEW YOU",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              fontFamily: 'Prociono',
+              color: Color.fromRGBO(77, 77, 77, 1),
+              fontSize: 25,
+            ),
+          ),
           SizedBox(height: 15),
-          Text("Dream Decoder",
-              style: TextStyle(
-                color: const Color.fromARGB(201, 31, 87, 33),
-                fontSize: 16,
-                fontStyle: FontStyle.italic,
-              )),
+          Text(
+            "Dream Decoder",
+            style: TextStyle(
+              color: const Color.fromARGB(201, 31, 87, 33),
+              fontSize: 16,
+              fontStyle: FontStyle.italic,
+            ),
+          ),
         ],
       ),
     );
