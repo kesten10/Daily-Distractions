@@ -1,0 +1,174 @@
+[
+    {
+      "id": 1,
+      "type": "text",
+      "title": "Day 1",
+      "content": "DREAMING ABOUT A DRASTIC NEW HAIRSTYLE MAY MEAN THAT YOU WISH TO TAKE A NEW APPROACH WITH WAY PEOPLE VIEW YOU",
+      "small_text": "Dream Decoder"
+    },
+    {
+        "id": 2,
+        "type": "text",
+        "title": "Day 2",
+        "content": "Treat yourself to a massage",
+        "small_text": "Stress less"
+    },
+    {
+        "id": 3,
+        "type": "text",
+        "title": "Day 3",
+        "content": "Thinly slice a courgette and spread the slices out on a baking sheet lined with parchment paper. Drizzle a tablespoon of oil on top and sprinkle garlic powder, cumin, paprika, salt and pepper to taste. Bake for an hour and a half at 100 degrees celsius",
+        "small_text": "RECIPE"
+    },
+    {
+        "id": 4,
+        "type": "text",
+        "title": "Day 4",
+        "content": "Try your hand at flower arranging. Pick or buy some flowers in different colours, shapes and textures that catch your eye and arrange them in a vase. You can add dried flowers, branches or even glitter!",
+        "small_text": "CRAFT IDEA"
+    },
+    {
+        "id": 5,
+        "type": "text",
+        "title": "Day 5",
+        "content": "Treat yourself to a massage",
+        "small_text": "Stress less"
+    },
+    {
+      "id": 6,
+      "type": "image",
+      "title": "Day 6",
+      "content": "Color this image.",
+      "image": "assets/images/image1.png" 
+    },
+    {
+        "id": 7,
+        "type": "image",
+        "title": "Day 7",
+        "content": "Color this image.",
+        "image": "assets/images/image1.png" 
+      },
+    {
+        "id": 8,
+        "type": "text",
+        "title": "Day 8",
+        "content": "Take a note of all the small things that you've accomplished this week",
+        "small_text": "Stress less"
+    },
+    {
+        "id": 9,
+        "type": "image",
+        "title": "Day 9",
+        "content": "Color this image.",
+        "image": "assets/images/image1.png" 
+      },
+    {
+        "id": 10,
+        "type": "text",
+        "title": "Day 10",
+        "content": "Set sane parameters. Instead of banning yourself from online streaming, you could opt to cut out solo binge-watching and organise a movie night with friends once a week",
+        "small_text": "Digital detox"
+    },
+    {
+        "id": 11,
+        "type": "image",
+        "title": "Day 11",
+        "content": "Color this image.",
+        "image": "assets/images/image1.png" 
+    },
+    {
+        "id": 12,
+        "type": "text",
+        "title": "Day 12",
+        "content": "Have a video chat date with a friend you haven't seen in a while",
+        "small_text": "Stress less"
+    },
+    {
+        "id": 13,
+        "type": "text",
+        "title": "Day 13",
+        "content": "As part of an ethical farming policy, the cows that produce the milk for Ben & Jerry's ice cream receive regular massages",
+        "small_text": "Feel good facts"
+    },
+    {
+        "id": 14,
+        "type": "text",
+        "title": "Day 14",
+        "content": "You answer me but I have asked you nothing What am I?",
+        "small_text": "RIDDLE"
+    },
+    {
+        "id": 15,
+        "type": "text",
+        "title": "Day 15",
+        "content": "Set sane parameters. Instead of banning yourself from online streaming, you could opt to cut out solo binge-watching and organise a movie night with friends once a week",
+        "small_text": "Digital detox"
+    },
+    {
+        "id": 16,
+        "type": "image",
+        "title": "Day 16",
+        "content": "Color this image.",
+        "image": "assets/images/image1.png" 
+    },
+    {
+        "id": 17,
+        "type": "text",
+        "title": "Day 17",
+        "content": "Make an effort to introduce yourself to a neighbour who you haven't spoken to before",
+        "small_text": "Good deeds"
+    },
+    {
+        "id": 18,
+        "type": "text",
+        "title": "Day 18",
+        "content": "Would you rather be able to detect any lie you hear or get away with any lie you tell?",
+        "small_text": "Would you rather"
+    },
+    {
+        "id": 19,
+        "type": "text",
+        "title": "Day 19",
+        "content": "The more I dry, the wetter I become. What am I?",
+        "small_text": "RIDDLE"
+    },
+    {
+        "id": 20,
+        "type": "image",
+        "title": "Day 20",
+        "content": "Color this image.",
+        "image": "assets/images/image1.png" 
+    },
+    {
+        "id": 21,
+        "type": "text",
+        "title": "Day 21",
+        "content": "Educate yourself about racial, gender and social issues",
+        "small_text": "Good deeds"
+    },
+    {
+        "id": 22,
+        "type": "text",
+        "title": "Day 22",
+        "content": "Make yourself a cup of warm milk or chamomile tea before bed",
+        "small_text": "SLEEP TIPS"
+    },
+    {
+        "id": 23,
+        "type": "text",
+        "title": "Day 23",
+        "content": "What new relationship have you made recently?",
+        "small_text": "TIME TO REFLECT"
+    },
+    {
+        "id": 24,
+        "type": "image",
+        "title": "Day 24",
+        "content": "Color this image.",
+        "image": "assets/images/image1.png" 
+    }
+    
+    
+
+  ]
+  
